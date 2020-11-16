@@ -8,3 +8,4 @@ Learning the basic concepts and workflow of how to build a [React](https://react
 - Widely used in the industry as it is extremely fast and responsive and very fast in rendering UI in the browser, therefore can be scaled up to launch complex UI features. 
 - It has the ability to have nested components. 
 - It is easily pluggable into exisiting applications.
+- Within a return statement, tags should be wrapped in a single element e.g. in a ```<div></div>```. 

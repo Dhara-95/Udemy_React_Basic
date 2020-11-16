@@ -1,9 +1,12 @@
-var Hello = React.createClass({
+var Product = React.createClass({
     render: function() {
         return (
-          <h2>How are you?</h2>
+          <div>
+            <p>Android - $199</p> 
+            <button> Buy</button>
+          </div>
         );
     }
 });
 
-React.render(<Hello/>, document.getElementById("root"));
+React.render(<Product/>, document.getElementById("root"));
