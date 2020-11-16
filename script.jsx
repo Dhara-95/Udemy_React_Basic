@@ -1,6 +1,9 @@
 var Product = React.createClass({
+  getInitialState: function() {
+    return {qty = 0};
+  },
   buy: function() {
-    alert("You bought the Android mobile");
+    this.setState({qty: this.state.qty + 1});
   }, 
 
   render: function() {
@@ -8,6 +11,7 @@ var Product = React.createClass({
       <div>
         <p>Android - $199</p> 
         <button onClick={this.buy}> Buy</button>
+        <h3>Qty: {this.state.qty} item(s)</h3>
       </div>
     );
   }
