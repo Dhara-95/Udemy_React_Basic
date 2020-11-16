@@ -9,3 +9,4 @@ Learning the basic concepts and workflow of how to build a [React](https://react
 - It has the ability to have nested components. 
 - It is easily pluggable into exisiting applications.
 - Within a return statement, tags should be wrapped in a single element e.g. in a ```<div></div>```. 
+- One of the most powerful features of React is it's ability to reuse components.
