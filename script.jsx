@@ -34,6 +34,28 @@ var Total = React.createClass({
   }  
 });
 
+var ProductForm = React.createClass({
+  submit: function(e) {
+    e.preventDefault();
+    alert("Name: " + this.refs.name.value + " - $" + this.refs.price.value);
+
+    this.refs.name.value = "";
+    this.refs.price.value = "";
+  },
+
+  render: function() {
+    return (
+      <form onSubmit={this.submit}>
+        <input type="text" placeholder="Product Name" ref="name"/> - 
+        <input type="text" placeholder="Product Price" ref="price"/>
+        <br/><br/> 
+        <button>Create Product</button>
+        <hr/>
+      </form>
+    );
+  }
+});
+
 var ProductList = React.createClass({
   getInitialState: function() {
     return {
@@ -66,6 +88,7 @@ var ProductList = React.createClass({
 
     return (
       <div>
+        <ProductForm/>
         {products} 
         <Total total={this.state.total}/>
       </div>
