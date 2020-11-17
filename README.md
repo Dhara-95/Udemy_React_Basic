@@ -10,3 +10,4 @@ Learning the basic concepts and workflow of how to build a [React](https://react
 - It is easily pluggable into exisiting applications.
 - Within a return statement, tags should be wrapped in a single element e.g. in a ```<div></div>```. 
 - One of the most powerful features of React is it's ability to reuse components.
+- Props look similar to attributes within a a HTML tag e.g.  in ```<Product name="Android" price="121"/>```, 'name' and 'price' are the props. 
