@@ -13,3 +13,4 @@ Learning the basic concepts and workflow of how to build a [React](https://react
 - Props look similar to attributes within a a HTML tag e.g.  in ```<Product name="Android" price="121"/>```, 'name' and 'price' are the props. 
 - JSX is a syntax extension for JavaScript. It was written to be used with React. JSX code looks a lot like HTML.
 - If a JavaScript file contains JSX code, then that file will have to be compiled. That means that before the file reaches a web browser, a JSX compiler will translate any JSX into regular JavaScript.
+- JSX elements can also be nested inside other JSX elemnents e.g. ```<a href="https://www.example.com"> <h1>Click me!</h1> </a>```.
